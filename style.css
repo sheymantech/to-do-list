@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 0rem 1rem;
+}
+.hidden {
+  display: none;
+}
+.main-cont {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px 0px rgb(194, 190, 190);
+  padding: 2.5rem 0rem;
+}
+.danger {
+  background-color: hsl(0, 77%, 75%);
+  padding: 3px 35px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  letter-spacing: 3px;
+}
+.success {
+  background-color: hsl(125, 49%, 72%);
+  padding: 3px 35px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  letter-spacing: 3px;
+}
+h3 {
+  font-weight: bold;
+  margin: 1rem 0rem;
+  color: rgb(71, 69, 69);
+}
+input {
+  border: none;
+  background-color: hsl(212, 33%, 89%);
+  padding: 5px 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+}
+.submit-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: hsl(209, 23%, 60%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -5px;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 1rem auto;
+}
+#btn {
+  border: none;
+  background-color: transparent;
+  color: hsl(0, 63%, 54%);
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.btn-edit-wrapper button {
+  border: none;
+}
+.edit i {
+  font-size: 20px;
+  color: hsl(125, 49%, 72%);
+  margin-right: 5px;
+}
+.delete i {
+  font-size: 20px;
+  color: hsl(0, 63%, 54%);
+}
+
+@media only screen and (max-width: 700px) {
+}
